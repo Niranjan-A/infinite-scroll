@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Pawfection is a JavaScript-based website dedicated to sharing dog photography using open-source Unsplash API to fetch dog photos and displays them randomly with infinite scroll functionality."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pawfection</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Pawfection</h1>
+      <p>Doggos of the internet captured by the pup-arazzi</p>
+    </header>
+
+    <!-- SVG Loading Illustration -->
+    <div class="loader" id="loader">
+      <img src="./images/loader.svg" alt="Loading Illustration" />
+    </div>
+
+    <!-- Image Container -->
+    <div class="images-container" id="images-container"></div>
+
+    <!-- JavaScript files -->
+    <script src="./script.js"></script>
+  </body>
+</html>
